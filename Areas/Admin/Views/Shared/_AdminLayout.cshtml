@@ -72,6 +72,7 @@
     <!-- ./wrapper -->
     <!-- jQuery -->
     @Scripts.Render("~/AdminLTE/js")
+    @RenderSection("scripts", required: false)
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>$.widget.bridge('uibutton', $.ui.button)</script>
     <script>
